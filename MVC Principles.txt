@@ -1,0 +1,5 @@
+A user interacts with the view - by clicking on a link or submitting a form.
+The Controller handles the user input, and transfers the information to the model
+The Model receives the information and updates it's state (adds data to a database, for example, or calculates todays date)
+The View checks the state of the Model and responds accordingly (listing the newly entered data, maybe)
+The View waits for another interaction from the user.
